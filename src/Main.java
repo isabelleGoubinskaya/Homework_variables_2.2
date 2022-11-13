@@ -35,6 +35,17 @@ public class Main {
         lp = (byte) (480 / lp);
         System.out.println("На каждого ученика рассчитано " + lp + " листов бумаги");
 
+        byte bottle = 16;
+        int min20 = bottle * 10;
+        int hours1 = min20 * 3;
+        int days = hours1 * 24;
+        int days3 = days * 3;
+        int month1 = days3 * 10;
+        System.out.println("За 20 минут машина произвела " + min20 + " бутылок");
+        System.out.println("За сутки машина произвела " + days + " бутылок");
+        System.out.println("За 3 дня машина произвела " + days3 + " бутылок");
+        System.out.println("За 1 месяц машина произвела " + month1 + " бутылок");
+
 
 
     }
