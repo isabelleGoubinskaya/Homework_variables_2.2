@@ -30,5 +30,12 @@ public class Main {
         byte h = 67;
         System.out.println(h);
 
+        byte lp = 23, as = 27, ea = 30;
+        lp = (byte) (lp + as + ea);
+        lp = (byte) (480 / lp);
+        System.out.println("На каждого ученика рассчитано " + lp + " листов бумаги");
+
+
+
     }
 }
