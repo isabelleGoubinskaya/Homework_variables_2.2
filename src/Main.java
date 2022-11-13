@@ -46,6 +46,15 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + days3 + " бутылок");
         System.out.println("За 1 месяц машина произвела " + month1 + " бутылок");
 
+        short cans = 120;
+        short classes = 120 / 6;
+        int whitepaint = classes * 2;
+        int braunpaint = classes * 4;
+        System.out.println("В школе, где 20 классов, нужно " + whitepaint + " банок белой краски и " + braunpaint + " коричневой краски");
+
+
+
+
 
 
     }
