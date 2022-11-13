@@ -50,7 +50,7 @@ public class Main {
         short classes = 120 / 6;
         int whitepaint = classes * 2;
         int braunpaint = classes * 4;
-        System.out.println("В школе, где 20 классов, нужно " + whitepaint + " банок белой краски и " + braunpaint + " коричневой краски");
+        System.out.println("В школе, где " + classes + " классов, нужно " + whitepaint + " банок белой краски и " + braunpaint + " коричневой краски");
 
 
 
