@@ -52,6 +52,19 @@ public class Main {
         int braunpaint = classes * 4;
         System.out.println("В школе, где " + classes + " классов, нужно " + whitepaint + " банок белой краски и " + braunpaint + " коричневой краски");
 
+        short bananas = 5 * 80;
+        short milk = 2 * 105;
+        short iceCream = 2 * 105;
+        short egg = 4 * 70;
+        int breakfast = bananas + milk + iceCream + egg;
+        float breakfastKil = breakfast / 1000F;
+
+
+
+
+
+
+
 
 
 
