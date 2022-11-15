@@ -69,7 +69,24 @@ public class Main {
         int days500G = loseWeightG /500;
         System.out.println(days500G);
 
-
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        int mashaOldYear = masha * 12;
+        int denisOldYear = denis * 12;
+        int kristinaOldYear = kristina * 12;
+        int increaseMasha = mashaOldYear / 10 + mashaOldYear;
+        int increaseMashaMonth = increaseMasha / 12;
+        int diffM = increaseMasha - mashaOldYear;
+        System.out.println("Маша теперь получает " + increaseMashaMonth + " рублей. Годовой доход вырос на " + diffM +" рублей");
+        int increaseDenis = denisOldYear / 10 + denisOldYear;
+        int increaseDenisMonth = increaseDenis / 12;
+        int diffD = increaseDenis - denisOldYear;
+        System.out.println("Денис теперь получает " + increaseDenisMonth + " рублей. Годовой доход вырос на " + diffD +" рублей");
+        int increaseKristina = kristinaOldYear / 10 + kristinaOldYear;
+        int increaseKristinaMonth = increaseKristina / 12;
+        int diffK = increaseKristina - kristinaOldYear;
+        System.out.println("Кристина теперь получает " + increaseKristinaMonth + " рублей. Годовой доход вырос на " + diffK +" рублей");
 
     }
 }
