@@ -1,3 +1,5 @@
+import java.io.ByteArrayInputStream;
+
 public class Main {
     public static void main(String[] args) {
         byte london =  47;
@@ -48,9 +50,9 @@ public class Main {
 
         short cans = 120;
         short classes = 120 / 6;
-        int whitepaint = classes * 2;
-        int braunpaint = classes * 4;
-        System.out.println("В школе, где " + classes + " классов, нужно " + whitepaint + " банок белой краски и " + braunpaint + " коричневой краски");
+        int whitePaint = classes * 2;
+        int braunPaint = classes * 4;
+        System.out.println("В школе, где " + classes + " классов, нужно " + whitePaint + " банок белой краски и " + braunPaint + " коричневой краски");
 
         short bananas = 5 * 80;
         short milk = 2 * 105;
@@ -58,15 +60,14 @@ public class Main {
         short egg = 4 * 70;
         int breakfast = bananas + milk + iceCream + egg;
         float breakfastKil = breakfast / 1000F;
+        System.out.println(breakfastKil);
 
-
-
-
-
-
-
-
-
+        byte loseWeightKg = 7;
+        int loseWeightG = loseWeightKg * 1000;
+        int days250G = loseWeightG /250;
+        System.out.println(days250G);
+        int days500G = loseWeightG /500;
+        System.out.println(days500G);
 
 
 
